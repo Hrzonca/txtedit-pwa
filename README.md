@@ -1,6 +1,6 @@
 # txtedit-pwa
 
-Live application [link text](https://txtedit-pwa.herokuapp.com/)
+Live application (https://txtedit-pwa.herokuapp.com/)
 
 # Table of Contents
 ## Descption
@@ -28,8 +28,8 @@ MIT
 # Questions 
 Contact me with questions by clicking links below
 
-Email [link text](hgielah@gmail.com) 
+Email (hgielah@gmail.com) 
 
-Github [link text](https://github.com/Hrzonca)
+Github (https://github.com/Hrzonca)
 
-LinkedIn [link text](https://www.linkedin.com/in/haleigh-rzonca-794942249/)
+LinkedIn (https://www.linkedin.com/in/haleigh-rzonca-794942249/)
