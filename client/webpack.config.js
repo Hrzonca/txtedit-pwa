@@ -22,6 +22,11 @@ module.exports = () => {
         template: './index.html',
         title: 'JATE'
       }),
+      
+      new InjectManifest({
+        swSrc: './src-sw.js',
+        swDest: 'src-sw.js',
+      }),
      
       // Injects our custom service worker
       new WebpackPwaManifest({
