@@ -17,6 +17,7 @@ SO THAT I can reliably retrieve them for later use
 
 # Installation 
 Clone repository to local 
+
 run ``` npm install ```
 
 This comand should install all needed dependencies.
@@ -26,6 +27,8 @@ MIT
 
 # Questions 
 Contact me with questions by clicking links below
-[Email] (hgielah@gmail.com)
-[Github] (https://github.com/Hrzonca)
-[LinkedIn] (https://www.linkedin.com/in/haleigh-rzonca-794942249/)
+[link text](hgielah@gmail.com) 
+
+[link text](https://github.com/Hrzonca)
+
+[link text](https://www.linkedin.com/in/haleigh-rzonca-794942249/)
