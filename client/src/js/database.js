@@ -33,7 +33,7 @@ export const getDb = async () => {
   console.log('opened db successfully');
   const text = jateDb.transaction('jate', 'readonly');
   const store = text.objectStore('jate');
-  const request = store.getAll();
+  const request = store.get(1);
   const result = await request;
   console.log('saved to database', result.value);
 };
