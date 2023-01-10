@@ -22,6 +22,7 @@ export const putDb = async (content) => {
   const store = text.objectStore('jate');
   const request = store.put({ id: id, value: content });
   const result = await request;
+  console.log(result);
   console.log('saved to database', result);
 };
 
