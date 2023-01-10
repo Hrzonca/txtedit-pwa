@@ -18,8 +18,8 @@ const initdb = async () => {
 export const putDb = async (content) => {
   console.log('PUT to the database');
   const jateDb = await openDB('jate', 1);
-  const tx = jateDb.transaction('jate', 'readwrite');
-  const store = tx.objectStore('jate');
+  const text = jateDb.transaction('jate', 'readwrite');
+  const store = text.objectStore('jate');
   const request = store.put({ id: 1, jate: content });
   const result = await request;
   console.log('saved to database', result);
@@ -31,8 +31,8 @@ export const getDb = async () => {
   console.log('GET implemented');
   const jateDb = await openDB('jate', 1);
   console.log('opened db successfully');
-  const tx = jateDb.transaction('jate', 'readonly');
-  const store = tx.objectStore('jate');
+  const text = jateDb.transaction('jate', 'readonly');
+  const store = text.objectStore('jate');
   const request = store.getAll();
   const result = await request;
   console.log('saved to database', result);
