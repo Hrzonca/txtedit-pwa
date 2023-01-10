@@ -23,7 +23,7 @@ export const putDb = async (content) => {
   const request = store.put({ id: 1, content: content });
   const result = await request;
   console.log(result.content);
-  console.log('saved to database', result.content);
+  console.log('saved to database', result);
 };
 
 // TODO: Add logic for a method that gets all the content from the database
@@ -36,7 +36,7 @@ export const getDb = async () => {
   const store = text.objectStore('jate');
   const request = store.getAll();
   const result = await request;
-  console.log('saved to database', result.value);
+  console.log('get from database', result.value);
   return result?.value;
 };
 
