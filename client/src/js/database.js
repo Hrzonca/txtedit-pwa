@@ -35,7 +35,7 @@ export const getDb = async () => {
   const store = text.objectStore('jate');
   const request = store.getAll();
   const result = await request;
-  console.log('saved to database', result);
+  console.log('saved to database', result.value);
 };
 
 initdb();
