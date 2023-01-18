@@ -2,6 +2,8 @@
 
 Live application (https://txtedit-pwa.herokuapp.com/)
 
+![Screen shot of application](./client/src/images/Screen%20Shot%202023-01-17%20at%207.54.36%20PM.png)
+
 # Table of Contents
 ## Descption
 ## Installation
@@ -33,3 +35,4 @@ Email (hgielah@gmail.com)
 Github (https://github.com/Hrzonca)
 
 LinkedIn (https://www.linkedin.com/in/haleigh-rzonca-794942249/)
+
